@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+    height: 248px;
+}
+
+.submit-button{
+    font-weight: bold;
+    margin-top: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.submit-button:hover{
+    background-color: darkred;
+    border-color: red;
+}
+
+.message, .weapon{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.shot{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    text-transform: uppercase;
+    font-size: larger;
+    text-shadow: 1rem;
+}
+
