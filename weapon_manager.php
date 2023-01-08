@@ -6,7 +6,8 @@ require_once('./models/canon.php');
 
 class WeaponManager
 {
-    private Weapon|array $weapons;
+    // private Weapon|array $weapons;
+    private $weapons = [];
     private Weapon $active_weapon;
 
     public function __construct()
